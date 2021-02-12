@@ -5,7 +5,6 @@ channels:
 dependencies:
   - conda
   - python=3.8
-  - python.app
   - conda-env
   - conda-build
   - conda-verify
@@ -17,5 +16,4 @@ dependencies:
   - python-kaleido
   - nbconvert
   - jupyterlab
-  - rpy2
 prefix: /opt/anaconda3
